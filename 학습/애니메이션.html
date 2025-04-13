@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        position: relative;
+        top: 50;
+        left: 50;
+        width: 200px;
+        height: 260px;
+        background-color: aqua;
+        /* transform: rotate(240deg); */
+        transition: all 1s ease-in-out;
+      }
+      button {
+        margin-top: 20rem;
+        width: 20rem;
+        height: 20rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box" class="box"></div>
+    <button onclick="btnclick(); next()"></button>
+
+    <script>
+      const box = document.getElementById("box");
+      let 가로 = 50;
+      let 세로 = 50;
+      function btnclick() {
+        // 로테이션
+        box.style.transform = "rotate(25deg)";
+
+        // 가로, 세로 이동
+        가로 = 가로 + 50;
+        세로 = 세로 + 15;
+        box.style.left = 가로;
+        box.style.top = 세로;
+      }
+      function next() {
+        setTimeout((window.location.href = "../index.html"), 5000);
+      }
+    </script>
+  </body>
+</html>
