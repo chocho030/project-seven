@@ -1,1 +1,114 @@
+/* 타이틀 */
 
+.title {
+}
+
+/* 메인 */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 메인 컨텐츠 */
+
+.main-content {
+  margin: 1rem;
+  display: flex;
+}
+
+/* 프론트 */
+
+.front {
+  background-color: grey;
+  width: 50rem;
+  height: 17rem;
+}
+.front-gogh {
+  background-color: rgb(112, 190, 190);
+}
+
+.front-img-container {
+  position: absolute;
+  background-color: white;
+  margin-left: 7rem;
+  width: 43rem;
+  height: 17rem;
+  border: solid black 1px;
+}
+.front-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.front-text {
+  position: relative;
+}
+.front-text-title {
+  font-size: 20px;
+
+  margin-left: 8rem;
+  margin-top: 4rem;
+  color: white;
+}
+.front-text-content-1 {
+  font-size: 42px;
+  margin-left: 7rem;
+  color: white;
+}
+.front-text-content-2 {
+  font-size: 20px;
+  margin-left: 8rem;
+  color: white;
+}
+
+.front-explanation {
+  margin-left: 35rem;
+}
+.front-explanation-date {
+  margin-left: 38rem;
+  margin-right: 1rem;
+
+  font-size: 20px;
+  text-align: right;
+  color: white;
+}
+.front-explanation-location {
+  margin-left: 40rem;
+  margin-right: 1rem;
+
+  font-size: 24px;
+  text-align: right;
+  color: white;
+}
+/* 백 */
+
+#ticket-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 0.5rem;
+  background-color: grey;
+  width: 11rem;
+  height: 17rem;
+
+  transition: all 1s ease-in-out;
+}
+
+.back-location {
+  width: 9rem;
+  height: 9rem;
+}
+.back-line {
+  margin: 0.5rem;
+  background-color: black;
+  width: 8rem;
+  height: 2px;
+}
+.back-button {
+}
