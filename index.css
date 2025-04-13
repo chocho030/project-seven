@@ -29,6 +29,12 @@
 .front-gogh {
   background-color: rgb(112, 190, 190);
 }
+.front-impressionist {
+  background-color: rgb(161, 196, 170);
+}
+.front-mucha {
+  background-color: rgb(255, 175, 175);
+}
 
 .front-img-container {
   position: absolute;
@@ -69,7 +75,7 @@
   margin-left: 35rem;
 }
 .front-explanation-date {
-  margin-left: 38rem;
+  margin-left: 20rem;
   margin-right: 1rem;
 
   font-size: 20px;
@@ -77,7 +83,7 @@
   color: white;
 }
 .front-explanation-location {
-  margin-left: 40rem;
+  margin-left: 20rem;
   margin-right: 1rem;
 
   font-size: 24px;
