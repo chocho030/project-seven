@@ -59,6 +59,9 @@
 #left {
   left: 2rem;
 }
+.first-main-button {
+  display: none;
+}
 #right {
   right: 2rem;
 }

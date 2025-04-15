@@ -25,6 +25,8 @@ function before_btn(page_num) {
 
 // 다음
 function next_btn(page_num) {
+  document.getElementById("left").style.display = "block";
+
   content_main.style.display = "none";
   num++;
 
@@ -38,6 +40,10 @@ function next_btn(page_num) {
   }
 }
 
-function page(num) {
-  window.location.href = "gogh-review-" + num + ".html";
+function page(page_num) {
+  window.location.href = "gogh-section.html#sec" + page_num;
+
+  if (page_num == 6) {
+    window.location.href = "../index.html";
+  }
 }
