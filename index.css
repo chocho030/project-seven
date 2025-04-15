@@ -42,7 +42,6 @@
   margin-left: 7rem;
   width: 43rem;
   height: 17rem;
-  border: solid black 1px;
 }
 .front-img {
   width: 100%;
@@ -99,11 +98,19 @@
   justify-content: center;
 
   margin-left: 0.5rem;
-  background-color: grey;
   width: 11rem;
   height: 17rem;
 
   transition: all 1s ease-in-out;
+}
+.impress-back {
+  background-color: rgb(161, 196, 170);
+}
+.mucha-back {
+  background-color: rgb(255, 175, 175);
+}
+.gogh-back {
+  background-color: rgb(112, 190, 190);
 }
 
 .back-location {
