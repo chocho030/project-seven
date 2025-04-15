@@ -44,3 +44,9 @@ function link(num) {
     window.location.href = link_list[num];
   }, 2000);
 }
+
+// function link(site) {
+//   setTimeout(() => {
+//     window.location.href = "../" + site + "-html/" + site + ".html";
+//   }, 2000);
+// }
