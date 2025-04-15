@@ -41,9 +41,10 @@ function next_btn(page_num) {
 }
 
 function page(page_num) {
-  window.location.href = "gogh-section.html#sec" + page_num;
-
   if (page_num == 6) {
-    window.location.href = "../index.html";
+    document.getElementById("go-home").style.display = "flex";
+    document.getElementById("right").style.display = "none";
+  } else {
+    window.location.href = "gogh-section.html#sec" + page_num;
   }
 }
