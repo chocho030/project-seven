@@ -1,0 +1,98 @@
+/* 네비게이션 */
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 3rem;
+  background-color: rgb(255, 255, 255);
+
+  z-index: 99;
+}
+
+.nav-home-container {
+  position: absolute;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+
+  margin-left: 1rem;
+}
+.nav-home {
+  width: 100%;
+  height: 100%;
+}
+
+/* 히어로 */
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  background-image: url(../img/hero-back.png);
+  text-decoration: none;
+}
+
+/* 히어로 텍스트 */
+.hero-title {
+  padding-top: 5rem;
+  margin-right: 14rem;
+
+  z-index: 99;
+}
+
+.hero-eng-name {
+  font-size: 80px;
+  margin-top: 10rem;
+
+  color: black;
+}
+.hero-eng-name-sub {
+  font-size: 40px;
+  margin-left: 2rem;
+
+  color: black;
+}
+
+.hero-kr-name {
+  display: flex;
+  gap: 1rem;
+  margin-left: 17rem;
+
+  font-size: 30px;
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+/* 히어로 이미지 */
+.hero-main {
+  display: flex;
+  position: absolute;
+  top: 5rem;
+  gap: 1rem;
+  margin-left: 27rem;
+
+  z-index: 0;
+}
+.hero-img {
+}
+.hero-text {
+  margin-top: 37rem;
+  text-align: right;
+}
+.hero-text-date {
+  font-size: 30px;
+  color: black;
+}
+.hero-text-location {
+  font-size: 20px;
+  color: black;
+}
