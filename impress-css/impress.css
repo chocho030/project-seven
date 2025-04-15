@@ -47,14 +47,19 @@
 }
 
 .hero-eng-name {
+  display: flex;
   font-size: 80px;
-  margin-top: 10rem;
+  margin-top: 4.5rem;
+  margin-left: 0rem;
 
   color: black;
 }
+.down {
+  margin-left: 2rem;
+}
 .hero-eng-name-sub {
   font-size: 40px;
-  margin-left: 2rem;
+  margin-left: 8rem;
 
   color: black;
 }
@@ -67,7 +72,6 @@
   font-size: 30px;
   color: black;
 }
-
 .white {
   color: white;
 }
