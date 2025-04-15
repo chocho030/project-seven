@@ -8,31 +8,36 @@ let list_length = content_list.length;
 
 let content_main = document.getElementById("one");
 content_main.style.display = "flex";
-let num = 0;
+let num = 1;
 
-function before_btn() {
+// 이전
+function before_btn(page_num) {
   content_main.style.display = "none";
   num--;
-  content_main = content_list[num];
-  content_main.style.display = "flex";
 
   if (num == 0) {
-    document.getElementById("left").style.display = "none";
-  }
-  if (num != list_length - 1) {
-    document.getElementById("right").style.display = "block";
+    page(page_num);
+  } else {
+    content_main = content_list[num - 1];
+    content_main.style.display = "flex";
   }
 }
-function next_btn() {
+
+// 다음
+function next_btn(page_num) {
   content_main.style.display = "none";
   num++;
-  content_main = content_list[num];
-  content_main.style.display = "flex";
 
-  if (num != 0) {
-    document.getElementById("left").style.display = "block";
+  if (num == list_length + 1) {
+    page(page_num);
+
+    num = 1;
+  } else {
+    content_main = content_list[num - 1];
+    content_main.style.display = "flex";
   }
-  if (num == list_length - 1) {
-    document.getElementById("right").style.display = "none";
-  }
+}
+
+function page(num) {
+  window.location.href = "gogh-review-" + num + ".html";
 }

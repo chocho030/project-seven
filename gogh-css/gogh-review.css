@@ -58,8 +58,6 @@
 
 #left {
   left: 2rem;
-
-  display: none;
 }
 #right {
   right: 2rem;
@@ -71,6 +69,9 @@
 
   width: 70%;
   height: 70%;
+}
+.first-page {
+  display: flex;
 }
 
 /* 메인 컨텐츠 - 이미지 */
