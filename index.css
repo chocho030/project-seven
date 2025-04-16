@@ -1,6 +1,11 @@
 /* 타이틀 */
-
 .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+
+  color: white;
 }
 
 /* 메인 */
@@ -15,113 +20,36 @@
 /* 메인 컨텐츠 */
 
 .main-content {
-  margin: 1rem;
+  margin: 0.5rem;
   display: flex;
 }
 
 /* 프론트 */
 
 .front {
-  background-color: grey;
-  width: 50rem;
-  height: 17rem;
-}
-.front-gogh {
-  background-color: rgb(112, 190, 190);
-}
-.front-impressionist {
-  background-color: rgb(161, 196, 170);
-}
-.front-mucha {
-  background-color: rgb(255, 175, 175);
+  height: 18rem;
 }
 
-.front-img-container {
-  position: absolute;
-  background-color: white;
-  margin-left: 7rem;
-  width: 43rem;
-  height: 17rem;
-}
 .front-img {
-  width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
-.front-text {
-  position: relative;
-}
-.front-text-title {
-  font-size: 20px;
-
-  margin-left: 8rem;
-  margin-top: 4rem;
-  color: white;
-}
-.front-text-content-1 {
-  font-size: 42px;
-  margin-left: 7rem;
-  color: white;
-}
-.front-text-content-2 {
-  font-size: 20px;
-  margin-left: 8rem;
-  color: white;
-}
-
-.front-explanation {
-  margin-left: 35rem;
-}
-.front-explanation-date {
-  margin-left: 20rem;
-  margin-right: 1rem;
-
-  font-size: 20px;
-  text-align: right;
-  color: white;
-}
-.front-explanation-location {
-  margin-left: 20rem;
-  margin-right: 1rem;
-
-  font-size: 24px;
-  text-align: right;
-  color: white;
-}
 /* 백 */
 
 .ticket-back {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  margin-left: 0.5rem;
-  width: 11rem;
-  height: 17rem;
+  position: relative;
+  height: 18rem;
 
   transition: all 1s ease-in-out;
 }
-.impress-back {
-  background-color: rgb(161, 196, 170);
-}
-.mucha-back {
-  background-color: rgb(255, 175, 175);
-}
-.gogh-back {
-  background-color: rgb(112, 190, 190);
-}
+.ticket-back-img {
+  height: 100%;
 
-.back-location {
-  width: 9rem;
-  height: 9rem;
+  opacity: 1;
 }
 .back-line {
-  margin: 0.5rem;
-  background-color: black;
-  width: 8rem;
-  height: 2px;
-}
-.back-button {
+  position: absolute;
+  left: 0rem;
+
+  height: 18rem;
 }
