@@ -51,30 +51,11 @@
   font-size: 32px;
   color: black;
 }
-.dut {
-  left: 8rem;
-}
-.arl {
-  left: 2rem;
-}
-.auv {
-  left: 5.5rem;
-}
-
-.text-period-kr-l {
-  position: absolute;
-  top: 9.7rem;
-
-  margin-left: 50px;
-
-  font-size: 20px;
-  color: black;
-}
 
 .text-quote-l {
   position: absolute;
-  top: 15rem;
-  left: 9rem;
+  top: 13rem;
+  left: 6rem;
 
   width: 90%;
   font-size: 20px;
@@ -82,21 +63,11 @@
 }
 .text-content-l {
   position: absolute;
-  top: 18rem;
-  left: 9rem;
-  padding-right: 2rem;
+  top: 16rem;
+  left: 4rem;
+  padding-right: 3rem;
 
   font-size: 16px;
-  color: black;
-}
-
-.text-year-l {
-  position: absolute;
-  top: 14.5rem;
-  left: 1rem;
-
-  font-size: 64px;
-  writing-mode: vertical-rl;
   color: black;
 }
 
@@ -148,46 +119,20 @@
   color: black;
 }
 
-.text-period-kr-r {
-  position: absolute;
-  top: 10.7rem;
-
-  margin-right: 50px;
-
-  font-size: 20px;
-  color: black;
-}
-.par {
-  right: 1.4rem;
-}
-.sai {
-  right: 6.3rem;
-}
-
 .text-quote-r {
   position: absolute;
-  top: 15rem;
-  right: 9rem;
+  top: 13rem;
+  right: 6rem;
 
   font-size: 20px;
   color: black;
 }
 .text-content-r {
   position: absolute;
-  top: 18rem;
-  right: 9rem;
-  padding-left: 2rem;
+  top: 16rem;
+  right: 4rem;
+  padding-left: 3rem;
 
   font-size: 16px;
-  color: black;
-}
-
-.text-year-r {
-  position: absolute;
-  top: 14.5rem;
-  right: 1rem;
-
-  font-size: 64px;
-  writing-mode: vertical-rl;
   color: black;
 }
