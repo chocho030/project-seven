@@ -36,6 +36,8 @@
 }
 .nav-page-content {
   font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
 }
 
 /* 메인 */
@@ -70,8 +72,8 @@
   display: none;
   border: 1.5px solid black;
 
-  width: 70%;
-  height: 70%;
+  width: 75%;
+  height: 75%;
 }
 .first-page {
   display: flex;
