@@ -52,7 +52,7 @@ function next_btn(page_num) {
 }
 
 function page(page_num) {
-  if (page_num == 6) {
+  if (page_num == 5) {
     document.getElementById("go-home").style.display = "flex";
     document.getElementById("right").style.display = "none";
   } else {
