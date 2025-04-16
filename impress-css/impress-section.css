@@ -51,21 +51,20 @@
   font-size: 32px;
   color: black;
 }
-
-.text-quote-l {
+.text-period-en-l {
   position: absolute;
-  top: 13rem;
-  left: 6rem;
+  top: 4.5rem;
+  left: 4.5rem;
 
-  width: 90%;
   font-size: 20px;
-  color: black;
+  color: rgb(151, 151, 151);
 }
+
 .text-content-l {
   position: absolute;
-  top: 16rem;
+  top: 14rem;
   left: 4rem;
-  padding-right: 3rem;
+  padding-right: 8rem;
 
   font-size: 16px;
   color: black;
@@ -118,20 +117,20 @@
   font-size: 32px;
   color: black;
 }
-
-.text-quote-r {
+.text-period-en-r {
   position: absolute;
-  top: 13rem;
-  right: 6rem;
+  top: 4.5rem;
+  right: 4.5rem;
 
   font-size: 20px;
-  color: black;
+  color: rgb(151, 151, 151);
 }
+
 .text-content-r {
   position: absolute;
-  top: 16rem;
+  top: 14rem;
   right: 4rem;
-  padding-left: 3rem;
+  padding-left: 8rem;
 
   font-size: 16px;
   color: black;
