@@ -22,9 +22,9 @@ function ani(num) {
 }
 
 const link_list = [
-  "impress-html/impress.html",
-  "mucha-html/mucha.html",
-  "gogh-html/gogh.html",
+  "./impress-html/impress.html",
+  "./mucha-html/mucha.html",
+  "./gogh-html/gogh.html",
 ];
 function link(num) {
   setTimeout(() => {
